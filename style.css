@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f3f3f3;
+}
+
+a {
+    color: royalblue;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: lightgrey;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    font-size: 2.5rem;
+}
+
+.search {
+    flex: 1;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgb(84, 162, 207);
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-1 {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.box {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.definition {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.like {
+    background-color: rgb(218, 218, 24);
+}
+
+.definition {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+}
+
+.add {
+    background-color: lightgreen;
+    width: 100%;
+    margin-top: 20px;
+}
